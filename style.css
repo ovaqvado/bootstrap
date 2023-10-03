@@ -54,30 +54,34 @@ body {
 
 @media screen and (max-width: 575px) {
     .container {
-        margin-top: 10px;
+        margin-top: 5px;
         padding-left: 5px;
-        width: 400px;
+        width: 550px;
     }
 
-  
+    h2 {
+        margin-left: 150px;
+    }
 
     .cards-1 {
-        flex-wrap: wrap;
-        margin-bottom: 10px;
-    
+        flex-direction: column;
+        margin-left: 150px;
     }
 
-   
-    .card-1
-    .card-2,
-    .card-3,
-    .card-4,
-    .card-5,
-    .card-6,
-    .card-7,
-    .card-8 {
-        margin-bottom: 10px;
+    .cards-2 {
+        flex-direction: column;
+        margin-left: 150px;
     }
+
+    .cards-3 {
+        flex-direction: column;
+        margin-left: 150px;
+    }
+
+   .card-5 {
+   
+   }
+
 
 
 }
