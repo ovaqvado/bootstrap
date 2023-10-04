@@ -1,0 +1,158 @@
+body {
+    background-image: url(https://w-dog.ru/wallpapers/2/4/329567419477439/metallicheskie-marina-dubaj-otrazhenie-chb.jpg) ;
+    background-size: cover;
+}
+
+  
+
+.cards-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards-3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.style-a {
+    color: white;
+    border: 1px solid grey;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.style-a:hover {
+    background-color: rgb(206, 206, 206);
+    color: blue;
+    border: 1px solid rgb(206, 206, 206);
+    transition: .6s;
+}
+
+
+.style-b {
+    border: 1px solid white;
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+}
+
+.style-b:hover {
+    background-color: rgb(206, 206, 206);
+    border: 1px solid rgb(25, 0, 255);
+    transition: .2s;
+}
+
+
+
+
+
+                                                                    /* Для экранов шириной меньше 800 пикселей */
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 1199px) {
+    
+}
+
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+ 
+    .cards-1 {
+        display: block;
+        margin-left: 240px;
+    }
+
+    .cards-2 {
+        display: block;
+        margin-left: 240px;
+    }
+
+    .cards-3 {
+        display: block;
+        margin-left: 240px;
+    }
+
+
+    .img, svg {
+
+        width: 40px;
+    }
+
+    .card-1 {width: 200px;}
+    .card-2 {width: 200px;}
+    .card-3 {width: 200px;}
+    .card-4 {width: 200px;}
+    .card-5 {width: 200px;}
+    .card-6 {width: 200px;}
+    .card-7 {width: 200px;}
+    .card-8 {width: 200px;} 
+
+
+
+}
+
+@media screen and (max-width: 575px) {
+
+
+    .container {
+        margin-top: 5px;
+        padding-left: 5px;
+        width: 550px;
+    }
+
+    h1 {
+        margin-left: 150px;
+        text-shadow: 5px 5px #8888886c;
+    }
+
+    .cards-1 {
+        flex-direction: column;
+        margin-left: 140px;
+    
+    }
+
+    .cards-2 {
+        flex-direction: column;
+        margin-left: 140px;   
+     }
+
+    .cards-3 {
+        flex-direction: column;
+        margin-left: 140px;
+    }
+
+    .img, svg {
+
+        width: 40px;
+    }
+
+    .table {
+        margin-left: 20px ;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
